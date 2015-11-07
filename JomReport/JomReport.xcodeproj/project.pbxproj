@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0B4E5B1BEDEDDF00D82CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E5A1BEDEDDF00D82CF3 /* AppDelegate.swift */; };
+		6E0B4E5D1BEDEDDF00D82CF3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E5C1BEDEDDF00D82CF3 /* FirstViewController.swift */; };
+		6E0B4E5F1BEDEDDF00D82CF3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E5E1BEDEDDF00D82CF3 /* SecondViewController.swift */; };
+		6E0B4E621BEDEDDF00D82CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B4E601BEDEDDF00D82CF3 /* Main.storyboard */; };
+		6E0B4E641BEDEDDF00D82CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B4E631BEDEDDF00D82CF3 /* Assets.xcassets */; };
+		6E0B4E671BEDEDDF00D82CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B4E651BEDEDDF00D82CF3 /* LaunchScreen.storyboard */; };
+		6E0B4E721BEDEDE000D82CF3 /* JomReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E711BEDEDE000D82CF3 /* JomReportTests.swift */; };
+		6E0B4E7D1BEDEDE000D82CF3 /* JomReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E7C1BEDEDE000D82CF3 /* JomReportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0B4E6E1BEDEDE000D82CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0B4E4F1BEDEDDF00D82CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E0B4E561BEDEDDF00D82CF3;
+			remoteInfo = JomReport;
+		};
+		6E0B4E791BEDEDE000D82CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0B4E4F1BEDEDDF00D82CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E0B4E561BEDEDDF00D82CF3;
+			remoteInfo = JomReport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E0B4E571BEDEDDF00D82CF3 /* JomReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JomReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0B4E5A1BEDEDDF00D82CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E0B4E5C1BEDEDDF00D82CF3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6E0B4E5E1BEDEDDF00D82CF3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6E0B4E611BEDEDDF00D82CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E0B4E631BEDEDDF00D82CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E0B4E661BEDEDDF00D82CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E0B4E681BEDEDDF00D82CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0B4E6D1BEDEDE000D82CF3 /* JomReportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JomReportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0B4E711BEDEDE000D82CF3 /* JomReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JomReportTests.swift; sourceTree = "<group>"; };
+		6E0B4E731BEDEDE000D82CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0B4E781BEDEDE000D82CF3 /* JomReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JomReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0B4E7C1BEDEDE000D82CF3 /* JomReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JomReportUITests.swift; sourceTree = "<group>"; };
+		6E0B4E7E1BEDEDE000D82CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0B4E541BEDEDDF00D82CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0B4E6A1BEDEDE000D82CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0B4E751BEDEDE000D82CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0B4E4E1BEDEDDF00D82CF3 = {
+			isa = PBXGroup;
+			children = (
+				6E0B4E591BEDEDDF00D82CF3 /* JomReport */,
+				6E0B4E701BEDEDE000D82CF3 /* JomReportTests */,
+				6E0B4E7B1BEDEDE000D82CF3 /* JomReportUITests */,
+				6E0B4E581BEDEDDF00D82CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E0B4E581BEDEDDF00D82CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B4E571BEDEDDF00D82CF3 /* JomReport.app */,
+				6E0B4E6D1BEDEDE000D82CF3 /* JomReportTests.xctest */,
+				6E0B4E781BEDEDE000D82CF3 /* JomReportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E0B4E591BEDEDDF00D82CF3 /* JomReport */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B4E5A1BEDEDDF00D82CF3 /* AppDelegate.swift */,
+				6E0B4E5C1BEDEDDF00D82CF3 /* FirstViewController.swift */,
+				6E0B4E5E1BEDEDDF00D82CF3 /* SecondViewController.swift */,
+				6E0B4E601BEDEDDF00D82CF3 /* Main.storyboard */,
+				6E0B4E631BEDEDDF00D82CF3 /* Assets.xcassets */,
+				6E0B4E651BEDEDDF00D82CF3 /* LaunchScreen.storyboard */,
+				6E0B4E681BEDEDDF00D82CF3 /* Info.plist */,
+			);
+			path = JomReport;
+			sourceTree = "<group>";
+		};
+		6E0B4E701BEDEDE000D82CF3 /* JomReportTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B4E711BEDEDE000D82CF3 /* JomReportTests.swift */,
+				6E0B4E731BEDEDE000D82CF3 /* Info.plist */,
+			);
+			path = JomReportTests;
+			sourceTree = "<group>";
+		};
+		6E0B4E7B1BEDEDE000D82CF3 /* JomReportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0B4E7C1BEDEDE000D82CF3 /* JomReportUITests.swift */,
+				6E0B4E7E1BEDEDE000D82CF3 /* Info.plist */,
+			);
+			path = JomReportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E0B4E561BEDEDDF00D82CF3 /* JomReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0B4E811BEDEDE000D82CF3 /* Build configuration list for PBXNativeTarget "JomReport" */;
+			buildPhases = (
+				6E0B4E531BEDEDDF00D82CF3 /* Sources */,
+				6E0B4E541BEDEDDF00D82CF3 /* Frameworks */,
+				6E0B4E551BEDEDDF00D82CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JomReport;
+			productName = JomReport;
+			productReference = 6E0B4E571BEDEDDF00D82CF3 /* JomReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E0B4E6C1BEDEDE000D82CF3 /* JomReportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0B4E841BEDEDE000D82CF3 /* Build configuration list for PBXNativeTarget "JomReportTests" */;
+			buildPhases = (
+				6E0B4E691BEDEDE000D82CF3 /* Sources */,
+				6E0B4E6A1BEDEDE000D82CF3 /* Frameworks */,
+				6E0B4E6B1BEDEDE000D82CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0B4E6F1BEDEDE000D82CF3 /* PBXTargetDependency */,
+			);
+			name = JomReportTests;
+			productName = JomReportTests;
+			productReference = 6E0B4E6D1BEDEDE000D82CF3 /* JomReportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E0B4E771BEDEDE000D82CF3 /* JomReportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0B4E871BEDEDE000D82CF3 /* Build configuration list for PBXNativeTarget "JomReportUITests" */;
+			buildPhases = (
+				6E0B4E741BEDEDE000D82CF3 /* Sources */,
+				6E0B4E751BEDEDE000D82CF3 /* Frameworks */,
+				6E0B4E761BEDEDE000D82CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0B4E7A1BEDEDE000D82CF3 /* PBXTargetDependency */,
+			);
+			name = JomReportUITests;
+			productName = JomReportUITests;
+			productReference = 6E0B4E781BEDEDE000D82CF3 /* JomReportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E0B4E4F1BEDEDDF00D82CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = JomReport;
+				TargetAttributes = {
+					6E0B4E561BEDEDDF00D82CF3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					6E0B4E6C1BEDEDE000D82CF3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6E0B4E561BEDEDDF00D82CF3;
+					};
+					6E0B4E771BEDEDE000D82CF3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 6E0B4E561BEDEDDF00D82CF3;
+					};
+				};
+			};
+			buildConfigurationList = 6E0B4E521BEDEDDF00D82CF3 /* Build configuration list for PBXProject "JomReport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E0B4E4E1BEDEDDF00D82CF3;
+			productRefGroup = 6E0B4E581BEDEDDF00D82CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E0B4E561BEDEDDF00D82CF3 /* JomReport */,
+				6E0B4E6C1BEDEDE000D82CF3 /* JomReportTests */,
+				6E0B4E771BEDEDE000D82CF3 /* JomReportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E0B4E551BEDEDDF00D82CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0B4E671BEDEDDF00D82CF3 /* LaunchScreen.storyboard in Resources */,
+				6E0B4E641BEDEDDF00D82CF3 /* Assets.xcassets in Resources */,
+				6E0B4E621BEDEDDF00D82CF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0B4E6B1BEDEDE000D82CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0B4E761BEDEDE000D82CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0B4E531BEDEDDF00D82CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0B4E5F1BEDEDDF00D82CF3 /* SecondViewController.swift in Sources */,
+				6E0B4E5B1BEDEDDF00D82CF3 /* AppDelegate.swift in Sources */,
+				6E0B4E5D1BEDEDDF00D82CF3 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0B4E691BEDEDE000D82CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0B4E721BEDEDE000D82CF3 /* JomReportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0B4E741BEDEDE000D82CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0B4E7D1BEDEDE000D82CF3 /* JomReportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E0B4E6F1BEDEDE000D82CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E0B4E561BEDEDDF00D82CF3 /* JomReport */;
+			targetProxy = 6E0B4E6E1BEDEDE000D82CF3 /* PBXContainerItemProxy */;
+		};
+		6E0B4E7A1BEDEDE000D82CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E0B4E561BEDEDDF00D82CF3 /* JomReport */;
+			targetProxy = 6E0B4E791BEDEDE000D82CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E0B4E601BEDEDDF00D82CF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0B4E611BEDEDDF00D82CF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E0B4E651BEDEDDF00D82CF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0B4E661BEDEDDF00D82CF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E0B4E7F1BEDEDE000D82CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E0B4E801BEDEDE000D82CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E0B4E821BEDEDE000D82CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JomReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jomreport.JomReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E0B4E831BEDEDE000D82CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JomReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jomreport.JomReport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E0B4E851BEDEDE000D82CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JomReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jomreport.JomReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JomReport.app/JomReport";
+			};
+			name = Debug;
+		};
+		6E0B4E861BEDEDE000D82CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JomReportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jomreport.JomReportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JomReport.app/JomReport";
+			};
+			name = Release;
+		};
+		6E0B4E881BEDEDE000D82CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JomReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jomreport.JomReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JomReport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6E0B4E891BEDEDE000D82CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JomReportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jomreport.JomReportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JomReport;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E0B4E521BEDEDDF00D82CF3 /* Build configuration list for PBXProject "JomReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0B4E7F1BEDEDE000D82CF3 /* Debug */,
+				6E0B4E801BEDEDE000D82CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0B4E811BEDEDE000D82CF3 /* Build configuration list for PBXNativeTarget "JomReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0B4E821BEDEDE000D82CF3 /* Debug */,
+				6E0B4E831BEDEDE000D82CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E0B4E841BEDEDE000D82CF3 /* Build configuration list for PBXNativeTarget "JomReportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0B4E851BEDEDE000D82CF3 /* Debug */,
+				6E0B4E861BEDEDE000D82CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E0B4E871BEDEDE000D82CF3 /* Build configuration list for PBXNativeTarget "JomReportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0B4E881BEDEDE000D82CF3 /* Debug */,
+				6E0B4E891BEDEDE000D82CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E0B4E4F1BEDEDDF00D82CF3 /* Project object */;
+}
