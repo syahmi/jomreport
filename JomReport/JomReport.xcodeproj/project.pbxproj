@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		6E0B4E5B1BEDEDDF00D82CF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E5A1BEDEDDF00D82CF3 /* AppDelegate.swift */; };
 		6E0B4E5D1BEDEDDF00D82CF3 /* SubmitReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E5C1BEDEDDF00D82CF3 /* SubmitReportViewController.swift */; };
-		6E0B4E5F1BEDEDDF00D82CF3 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E5E1BEDEDDF00D82CF3 /* DashboardViewController.swift */; };
+		6E0B4E5F1BEDEDDF00D82CF3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E5E1BEDEDDF00D82CF3 /* ProfileViewController.swift */; };
 		6E0B4E621BEDEDDF00D82CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B4E601BEDEDDF00D82CF3 /* Main.storyboard */; };
 		6E0B4E641BEDEDDF00D82CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B4E631BEDEDDF00D82CF3 /* Assets.xcassets */; };
 		6E0B4E671BEDEDDF00D82CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B4E651BEDEDDF00D82CF3 /* LaunchScreen.storyboard */; };
@@ -39,7 +39,7 @@
 		6E0B4E571BEDEDDF00D82CF3 /* JomReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JomReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0B4E5A1BEDEDDF00D82CF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E0B4E5C1BEDEDDF00D82CF3 /* SubmitReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitReportViewController.swift; sourceTree = "<group>"; };
-		6E0B4E5E1BEDEDDF00D82CF3 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		6E0B4E5E1BEDEDDF00D82CF3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		6E0B4E611BEDEDDF00D82CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E0B4E631BEDEDDF00D82CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E0B4E661BEDEDDF00D82CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				6E0B4E5A1BEDEDDF00D82CF3 /* AppDelegate.swift */,
 				6EB2E5F11BF32B9F00ACD137 /* IssueTrackerViewController.swift */,
 				6E0B4E5C1BEDEDDF00D82CF3 /* SubmitReportViewController.swift */,
-				6E0B4E5E1BEDEDDF00D82CF3 /* DashboardViewController.swift */,
+				6E0B4E5E1BEDEDDF00D82CF3 /* ProfileViewController.swift */,
 				6E0B4E601BEDEDDF00D82CF3 /* Main.storyboard */,
 				6E0B4E631BEDEDDF00D82CF3 /* Assets.xcassets */,
 				6E0B4E651BEDEDDF00D82CF3 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0B4E5F1BEDEDDF00D82CF3 /* DashboardViewController.swift in Sources */,
+				6E0B4E5F1BEDEDDF00D82CF3 /* ProfileViewController.swift in Sources */,
 				6E0B4E5B1BEDEDDF00D82CF3 /* AppDelegate.swift in Sources */,
 				6EB2E5F21BF32B9F00ACD137 /* IssueTrackerViewController.swift in Sources */,
 				6E0B4E5D1BEDEDDF00D82CF3 /* SubmitReportViewController.swift in Sources */,
