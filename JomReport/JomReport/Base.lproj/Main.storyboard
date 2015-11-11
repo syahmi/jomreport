@@ -103,11 +103,39 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Profile" id="KMh-EZ-vB7"/>
+                    <navigationItem key="navigationItem" title="Profile" id="KMh-EZ-vB7">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="7Nf-e2-uXX">
+                            <connections>
+                                <segue destination="bdH-cv-KDq" kind="show" id="yMK-nE-F7g"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lxi-Yd-Fei" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="1137"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="cUH-mY-T2M">
+            <objects>
+                <viewController id="bdH-cv-KDq" customClass="SettingsViewController" customModule="JomReport" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="41h-Cd-g28"/>
+                        <viewControllerLayoutGuide type="bottom" id="L59-yw-gly"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dbd-oN-S8m">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="iBJ-EI-Pu8">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Nqs-3p-xyc"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nq0-Kb-jAq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2230" y="1137"/>
         </scene>
         <!--Profile-->
         <scene sceneID="kEq-WD-EBC">

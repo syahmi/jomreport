@@ -15,6 +15,7 @@
 		6E0B4E671BEDEDDF00D82CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0B4E651BEDEDDF00D82CF3 /* LaunchScreen.storyboard */; };
 		6E0B4E721BEDEDE000D82CF3 /* JomReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E711BEDEDE000D82CF3 /* JomReportTests.swift */; };
 		6E0B4E7D1BEDEDE000D82CF3 /* JomReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B4E7C1BEDEDE000D82CF3 /* JomReportUITests.swift */; };
+		6E91B5661BF37149007F5087 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E91B5651BF37149007F5087 /* SettingsViewController.swift */; };
 		6EB2E5F21BF32B9F00ACD137 /* IssueTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2E5F11BF32B9F00ACD137 /* IssueTrackerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		6E0B4E781BEDEDE000D82CF3 /* JomReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JomReportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0B4E7C1BEDEDE000D82CF3 /* JomReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JomReportUITests.swift; sourceTree = "<group>"; };
 		6E0B4E7E1BEDEDE000D82CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E91B5651BF37149007F5087 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6EB2E5F11BF32B9F00ACD137 /* IssueTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueTrackerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				6EB2E5F11BF32B9F00ACD137 /* IssueTrackerViewController.swift */,
 				6E0B4E5C1BEDEDDF00D82CF3 /* MapViewController.swift */,
 				6E0B4E5E1BEDEDDF00D82CF3 /* ProfileViewController.swift */,
+				6E91B5651BF37149007F5087 /* SettingsViewController.swift */,
 				6E0B4E601BEDEDDF00D82CF3 /* Main.storyboard */,
 				6E0B4E631BEDEDDF00D82CF3 /* Assets.xcassets */,
 				6E0B4E651BEDEDDF00D82CF3 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				6E0B4E5F1BEDEDDF00D82CF3 /* ProfileViewController.swift in Sources */,
 				6E0B4E5B1BEDEDDF00D82CF3 /* AppDelegate.swift in Sources */,
 				6EB2E5F21BF32B9F00ACD137 /* IssueTrackerViewController.swift in Sources */,
+				6E91B5661BF37149007F5087 /* SettingsViewController.swift in Sources */,
 				6E0B4E5D1BEDEDDF00D82CF3 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
