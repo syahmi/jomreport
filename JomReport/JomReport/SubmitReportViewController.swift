@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  SubmitReportViewController.swift
 //  JomReport
 //
 //  Created by MSi on 07/11/2015.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SubmitReportViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
