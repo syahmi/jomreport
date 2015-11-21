@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreLocation
 
 class Issue {
     var title: String
@@ -15,11 +16,11 @@ class Issue {
     var address: String
     var latitude: Double
     var longitude: Double
-    var date: String
+    var date: NSDate
     var category: String
     var user: User
     
-    init(title: String, address: String, latitude: Double, longitude: Double, date: String, category: String, user: User) {
+    init(title: String, address: String, latitude: Double, longitude: Double, date: NSDate, category: String, user: User) {
         self.title = title
         self.address = address
         self.latitude = latitude
@@ -27,5 +28,10 @@ class Issue {
         self.date = date
         self.category = category
         self.user = user
+    }
+    
+    func distanceFromCurrentLocation(currentLocation: CLLocation) -> CLLocationDistance {
+        let issueLocation: CLLocation = CLLocation(latitude: latitude, longitude: longitude)
+        return issueLocation.distanceFromLocation(currentLocation)
     }
 }
