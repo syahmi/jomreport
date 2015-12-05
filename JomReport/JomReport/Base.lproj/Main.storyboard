@@ -332,12 +332,18 @@
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="N4z-YU-5ay" id="7vE-yI-ba2"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hon-Cb-dsI">
                                 <rect key="frame" x="16" y="426" width="568" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="N4z-YU-5ay" id="LAa-ux-Ozr"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QB-id-R2C">
                                 <rect key="frame" x="20" y="520" width="560" height="60"/>
@@ -358,6 +364,7 @@
                             <constraint firstItem="4QB-id-R2C" firstAttribute="leading" secondItem="lcu-UX-4Wf" secondAttribute="leading" constant="20" id="HKn-LX-nPf"/>
                             <constraint firstItem="ajG-vJ-Fnv" firstAttribute="leading" secondItem="lcu-UX-4Wf" secondAttribute="leading" constant="16" id="J1G-0c-h9U"/>
                             <constraint firstAttribute="trailing" secondItem="ajG-vJ-Fnv" secondAttribute="trailing" constant="16" id="LtF-xJ-vPJ"/>
+                            <constraint firstItem="4QB-id-R2C" firstAttribute="top" secondItem="Hon-Cb-dsI" secondAttribute="bottom" constant="64" id="Rev-xs-dNF"/>
                             <constraint firstAttribute="trailing" secondItem="4QB-id-R2C" secondAttribute="trailing" constant="20" id="WaW-u1-lhT"/>
                             <constraint firstItem="Hon-Cb-dsI" firstAttribute="leading" secondItem="lcu-UX-4Wf" secondAttribute="leading" constant="16" id="cqx-dF-8QM"/>
                             <constraint firstItem="ajG-vJ-Fnv" firstAttribute="top" secondItem="1Bd-mK-4hu" secondAttribute="bottom" constant="16" id="jLj-dp-KmD"/>
@@ -377,6 +384,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="bottomConstraint" destination="ooj-pD-AXs" id="RxT-ql-fkd"/>
                         <outlet property="issueImageView" destination="1Bd-mK-4hu" id="fyh-ZM-eoh"/>
                     </connections>
                 </viewController>

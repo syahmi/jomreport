@@ -8,16 +8,58 @@
 
 import UIKit
 
-class SubmitReportViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class SubmitReportViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITextFieldDelegate {
     
     @IBOutlet weak var issueImageView: UIImageView!
+    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
+    
     let imagePicker = UIImagePickerController()
+    var bottomConstraintValue: CGFloat!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         self.imagePicker.delegate = self
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        self.bottomConstraintValue = self.bottomConstraint.constant
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillShowNotification:", name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHideNotification:", name: UIKeyboardWillHideNotification, object: nil)
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().removeObserver(self, name: UIKeyboardWillHideNotification, object: nil)
+    }
+    
+    func getKeyboardHeight(notification: NSNotification) -> CGFloat {
+        let userInfo = notification.userInfo
+        let keyboardSize = userInfo![UIKeyboardFrameEndUserInfoKey] as! NSValue // of CGRect
+        return keyboardSize.CGRectValue().height
+    }
+    
+    func keyboardWillShowNotification(notification: NSNotification) {
+        self.view.frame.origin.y = 0.0
+        self.view.frame.origin.y -= getKeyboardHeight(notification)
+        
+    }
+    
+    func keyboardWillHideNotification(notification: NSNotification) {
+        self.view.frame.origin.y += getKeyboardHeight(notification)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
         
     }
     
@@ -44,5 +86,6 @@ class SubmitReportViewController: UIViewController, UIImagePickerControllerDeleg
             self.dismissViewControllerAnimated(true, completion: nil)
         }
     }
+    
 }
 
