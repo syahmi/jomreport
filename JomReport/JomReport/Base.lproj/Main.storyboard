@@ -5,7 +5,7 @@
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
-        <!--Issue Tracker View Controller-->
+        <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="IssueTrackerViewController" customModule="JomReport" customModuleProvider="target" sceneMemberID="viewController">
@@ -98,7 +98,7 @@
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" id="M8P-ZT-479">
+                    <navigationItem key="navigationItem" title="Home" id="M8P-ZT-479">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="Nnw-M7-2Dz">
                             <connections>
                                 <action selector="openSubmitReport:" destination="9pv-A4-QxB" id="qmF-Ef-j8h"/>
@@ -323,22 +323,22 @@
                                     <action selector="cameraButtonTapped:" destination="N4z-YU-5ay" eventType="touchUpInside" id="OcL-Bo-9xh"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Bd-mK-4hu">
+                                <rect key="frame" x="0.0" y="64" width="600" height="300"/>
+                                <animations/>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ajG-vJ-Fnv">
-                                <rect key="frame" x="16" y="285" width="568" height="30"/>
+                                <rect key="frame" x="16" y="380" width="568" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hon-Cb-dsI">
-                                <rect key="frame" x="16" y="331" width="568" height="30"/>
+                                <rect key="frame" x="16" y="426" width="568" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Bd-mK-4hu">
-                                <rect key="frame" x="0.0" y="64" width="600" height="150"/>
-                                <animations/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QB-id-R2C">
                                 <rect key="frame" x="20" y="520" width="560" height="60"/>
                                 <animations/>
@@ -355,17 +355,17 @@
                             <constraint firstItem="rcn-4H-2BJ" firstAttribute="top" secondItem="1Bd-mK-4hu" secondAttribute="top" constant="8" id="0NO-gV-Jop"/>
                             <constraint firstItem="Hon-Cb-dsI" firstAttribute="top" secondItem="ajG-vJ-Fnv" secondAttribute="bottom" constant="16" id="6IW-j7-JHS"/>
                             <constraint firstAttribute="trailing" secondItem="rcn-4H-2BJ" secondAttribute="trailing" constant="8" id="BRf-QZ-mb0"/>
-                            <constraint firstItem="ajG-vJ-Fnv" firstAttribute="centerY" secondItem="lcu-UX-4Wf" secondAttribute="centerY" id="FRe-pB-mCI"/>
                             <constraint firstItem="4QB-id-R2C" firstAttribute="leading" secondItem="lcu-UX-4Wf" secondAttribute="leading" constant="20" id="HKn-LX-nPf"/>
                             <constraint firstItem="ajG-vJ-Fnv" firstAttribute="leading" secondItem="lcu-UX-4Wf" secondAttribute="leading" constant="16" id="J1G-0c-h9U"/>
                             <constraint firstAttribute="trailing" secondItem="ajG-vJ-Fnv" secondAttribute="trailing" constant="16" id="LtF-xJ-vPJ"/>
                             <constraint firstAttribute="trailing" secondItem="4QB-id-R2C" secondAttribute="trailing" constant="20" id="WaW-u1-lhT"/>
                             <constraint firstItem="Hon-Cb-dsI" firstAttribute="leading" secondItem="lcu-UX-4Wf" secondAttribute="leading" constant="16" id="cqx-dF-8QM"/>
+                            <constraint firstItem="ajG-vJ-Fnv" firstAttribute="top" secondItem="1Bd-mK-4hu" secondAttribute="bottom" constant="16" id="jLj-dp-KmD"/>
                             <constraint firstAttribute="trailing" secondItem="Hon-Cb-dsI" secondAttribute="trailing" constant="16" id="nd3-fR-uUH"/>
                             <constraint firstItem="lUG-hs-bpN" firstAttribute="top" secondItem="4QB-id-R2C" secondAttribute="bottom" constant="20" id="ooj-pD-AXs"/>
                             <constraint firstItem="1Bd-mK-4hu" firstAttribute="top" secondItem="OMR-IY-MMH" secondAttribute="bottom" id="qN7-fg-awO"/>
                             <constraint firstItem="1Bd-mK-4hu" firstAttribute="leading" secondItem="lcu-UX-4Wf" secondAttribute="leading" id="txO-3i-xgK"/>
-                            <constraint firstItem="1Bd-mK-4hu" firstAttribute="height" secondItem="lcu-UX-4Wf" secondAttribute="height" multiplier="1:4" id="uUb-TG-5Us"/>
+                            <constraint firstItem="1Bd-mK-4hu" firstAttribute="height" secondItem="lcu-UX-4Wf" secondAttribute="height" multiplier="1:2" id="uUb-TG-5Us"/>
                             <constraint firstAttribute="trailing" secondItem="1Bd-mK-4hu" secondAttribute="trailing" id="xRB-7m-2Pm"/>
                         </constraints>
                     </view>
