@@ -10,6 +10,7 @@ import UIKit
 
 class SubmitReportViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+    @IBOutlet weak var issueImageView: UIImageView!
     let imagePicker = UIImagePickerController()
     
     override func viewDidLoad() {
@@ -24,12 +25,24 @@ class SubmitReportViewController: UIViewController, UIImagePickerControllerDeleg
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func cancelBarButtonItem(sender: UIBarButtonItem) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     @IBAction func cameraButtonTapped(sender: UIButton) {
         
         self.imagePicker.allowsEditing = false
         self.imagePicker.sourceType = .Camera
         self.presentViewController(self.imagePicker, animated: true, completion: nil)
         
+    }
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
+            self.issueImageView.image = pickedImage
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
     }
 }
 

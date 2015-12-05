@@ -316,7 +316,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcn-4H-2BJ">
-                                <rect key="frame" x="562" y="28" width="30" height="22"/>
+                                <rect key="frame" x="562" y="72" width="30" height="22"/>
                                 <animations/>
                                 <state key="normal" image="cameraButton"/>
                                 <connections>
@@ -335,8 +335,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Bd-mK-4hu">
-                                <rect key="frame" x="0.0" y="20" width="600" height="150"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Bd-mK-4hu">
+                                <rect key="frame" x="0.0" y="64" width="600" height="150"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QB-id-R2C">
@@ -369,8 +369,37 @@
                             <constraint firstAttribute="trailing" secondItem="1Bd-mK-4hu" secondAttribute="trailing" id="xRB-7m-2Pm"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="hmr-EF-YJp">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="tig-Wb-SyK">
+                            <connections>
+                                <action selector="cancelBarButtonItem:" destination="N4z-YU-5ay" id="kPp-pY-ND3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="issueImageView" destination="1Bd-mK-4hu" id="fyh-ZM-eoh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R9I-Xo-O3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2374" y="-1098"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gBx-UH-41R">
+            <objects>
+                <navigationController storyboardIdentifier="submitReportNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="YAF-Ru-89E" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8kv-Wy-QgR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="N4z-YU-5ay" kind="relationship" relationship="rootViewController" id="jWk-14-Iwx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iPf-4n-Jhx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="-1098"/>
         </scene>

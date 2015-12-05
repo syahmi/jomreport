@@ -66,7 +66,7 @@ class IssueTrackerViewController: UIViewController {
     
     @IBAction func openSubmitReport(sender: UIBarButtonItem) {
         
-        let submitReportVC = self.storyboard?.instantiateViewControllerWithIdentifier("submitReportVC") as! SubmitReportViewController
+        let submitReportVC = self.storyboard?.instantiateViewControllerWithIdentifier("submitReportNavigationController") as! UINavigationController
         self.presentViewController(submitReportVC, animated: true, completion: nil)
         
     }
