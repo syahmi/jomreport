@@ -8,13 +8,16 @@
 
 import UIKit
 
-class SubmitReportViewController: UIViewController {
+class SubmitReportViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     let imagePicker = UIImagePickerController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.imagePicker.delegate = self
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -22,6 +25,11 @@ class SubmitReportViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func cameraButtonTapped(sender: UIButton) {
+        
+        self.imagePicker.allowsEditing = false
+        self.imagePicker.sourceType = .Camera
+        self.presentViewController(self.imagePicker, animated: true, completion: nil)
+        
     }
 }
 
