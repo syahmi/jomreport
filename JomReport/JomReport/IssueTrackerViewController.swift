@@ -64,5 +64,7 @@ class IssueTrackerViewController: UIViewController {
     }
     
     
+    @IBAction func openSubmitReport(sender: UIBarButtonItem) {
+    }
     
 }
